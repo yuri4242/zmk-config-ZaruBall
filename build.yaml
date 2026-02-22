@@ -20,9 +20,12 @@
 include:
   - board: seeeduino_xiao_ble
     shield: ZaruBall_left rgbled_adapter
+    artifact-name: ZaruBall_left
   - board: seeeduino_xiao_ble
     shield: ZaruBall_right rgbled_adapter
     snippet: studio-rpc-usb-uart
     cmake-args: -DCONFIG_ZMK_STUDIO=y
+    artifact-name: ZaruBall_right
   - board: seeeduino_xiao_ble
     shield: settings_reset
+    artifact-name: settings_reset
